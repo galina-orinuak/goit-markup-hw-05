@@ -24,7 +24,9 @@
         <nav class="page-nav">
           <a href="./index.html" class="logo link">Web<span class="second-logo">Studio</span></a>
           <ul class="header-list list">
-            <li class="header-link"><a href="./index.html" class="header-item link">Studio</a></li>
+            <li class="header-link"
+              ><a href="./index.html" class="header-item header-item-studio link">Studio</a></li
+            >
             <li class="header-link"
               ><a href="./portfolio.html" class="header-item link">Portfolio</a></li
             >
@@ -53,7 +55,7 @@
       <section class="section-one">
         <div class="container">
           <h1 class="main-h">Effective Solutions for Your Business</h1>
-          <button class="modal-btn" type="button">Order Service</button>
+          <button class="modal-btn" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!--SECTION 2-->
@@ -64,9 +66,9 @@
             <li class="section-two-object">
               <div class="icon_cntr">
                 <svg class="section_two_icon" width="64" height="64">
-                <use href="./images/icons.svg#icon-antenna"></use>
+                  <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
-             </div>
+              </div>
 
               <h3 class="section_two_item">Strategy</h3>
               <p class="section_two_text">
@@ -373,7 +375,8 @@
       <div class="container footer_container">
         <div class="foot_logo_container">
           <a href="./index.html" class="logo logo-footer link"
-            >Web<span class="second-logo-footer">Studio</span></a>
+            >Web<span class="second-logo-footer">Studio</span></a
+          >
           <p class="footer_text">
             Increase the flow of customers and sales for your business with digital marketing &
             growth solutions.
@@ -414,5 +417,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
