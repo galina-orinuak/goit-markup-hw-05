@@ -695,7 +695,7 @@ button {
 
 .modal-close-btn-icon:hover,
 .modal-close-btn-icon:focus {
-  fill: (--accent-color);
+  fill: (white);
 }
 
 ..modal-close-btn-icon: {
